@@ -1,0 +1,36 @@
+
+.menu ul li{
+  list-style: none;
+}
+.menu ul li a {
+  color: #111111;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+  display: block;
+  max-width: fit-content;
+}
+.menu ul li a:after{
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #111111;
+  transition: all .3s;
+}
+.menu ul li a:hover:after {
+  width: 100%;
+  transition: all .3s;
+
+}
+.banner-recipes__text h2{
+  color: #111111;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.banner-recipes__text p{
+  font-size: 18px;
+  color: #000000;
+  line-height: 28px;
+  opacity: 0.7;
+}
