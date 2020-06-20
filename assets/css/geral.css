@@ -16,3 +16,12 @@ body{
 img{
   max-width: 100%;
 }
+
+footer {
+  background: #EEEEEE;
+  padding: 30px;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 14px;
+  color: #999999;
+}

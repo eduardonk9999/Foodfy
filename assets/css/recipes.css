@@ -1,0 +1,11 @@
+
+.more-recipes__wrapp {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+img.recipes-image {
+
+  border-radius: 15px;
+  margin-bottom: 10px;
+} 

@@ -34,3 +34,20 @@
   line-height: 28px;
   opacity: 0.7;
 }
+.more-recipes h3 {
+  font-size: 24px;
+  color: #111111;
+  margin-bottom: 20px;
+}
+h4.recipes-title {
+  font-size: 18px;
+  color: #111111;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+p.recipes-author {
+  font-weight: 300;
+  font-size: 14px;
+  color: #777777;
+}
