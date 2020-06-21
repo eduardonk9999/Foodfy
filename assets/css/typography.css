@@ -51,3 +51,25 @@ p.recipes-author {
   font-size: 14px;
   color: #777777;
 }
+
+article.on-box h2 {
+  font-size: 24px;
+  color: #111111;
+  font-weight: 400;
+  margin: 25px 0 20px 0;
+}
+
+article.on-box p {
+  font-size: 18px;
+  color: #444444;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.fechar-modal{
+  font-size: 16px;
+  color: #999999;
+  margin-top: 30px;
+  display: block;
+  cursor: pointer;
+}

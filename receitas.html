@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css">
   <title>Foodfy</title>
 </head>
 <body>
   <header>
-    <div class="wrapper">
+    <div class="wrapper wrapper--header">
       <h1 class="logo">
-
+        <a href="index.html">
+          <img src="assets/imgs/logo.png" alt="Logo Foodfy">
+        </a>
       </h1>
       <nav class="menu">
         <ul>
@@ -21,37 +24,64 @@
   </header>
   <main>
     <section class="recipes">
-      <div class="more-recipes__wrapp">
-        <article class="recipes">
-          <img src="" alt="" class="recipes-image">
-          <h4 class="recipes-title">Triplo bacon burguer</h4>
-          <p class="recipes-author">por Jorge Relato</p>
-        </article>
-        <article class="recipes">
-          <img src="" alt="" class="recipes-image">
-          <h4 class="recipes-title">Pizza 4 estações</h4>
-          <p class="recipes-author">por Fabiana Melo</p>
-        </article>
-        <article class="recipes">
-          <img src="" alt="" class="recipes-image">
-          <h4 class="recipes-title">Espaguete ao alho</h4>
-          <p class="recipes-author">por Júlia Kinoto</p>
-        </article>
-        <article class="recipes">
-          <img src="" alt="" class="recipes-image">
-          <h4 class="recipes-title">Lasanha mac n' cheese</h4>
-          <p class="recipes-author">por Juliano Viera</p>
-        </article>
-        <article class="recipes">
-          <img src="" alt="" class="recipes-image">
-          <h4 class="recipes-title">Docinhos pão-do-céu</h4>
-          <p class="recipes-author">por Fabiana de Melo</p>
-        </article>
-        <article class="recipes">
-          <img src="" alt="" class="recipes-image">
-          <h4 class="recipes-title">Asinhas de frango ao barbecue</h4>
-          <p class="recipes-author">por Vania Steroki</p>
-        </article>
+      <div class="wrapper">
+        <div class="more-recipes__wrapp">
+          <article class="recipes" data-id="burger">
+            <img src="assets/imgs/burger.png" alt="Burguer" class="recipes-image">
+            <h4 class="recipes-title">Triplo bacon burguer</h4>
+            <p class="recipes-author">por Jorge Relato</p>
+          </article>
+          <article class="recipes" data-id="pizza">
+            <img src="assets/imgs/pizza.png" alt="Pizza" class="recipes-image">
+            <h4 class="recipes-title">Pizza 4 estações</h4>
+            <p class="recipes-author">por Fabiana Melo</p>
+          </article>
+          <article class="recipes" data-id="espaguete">
+            <img src="assets/imgs/espaguete.png" alt="Espaguete" class="recipes-image">
+            <h4 class="recipes-title">Espaguete ao alho</h4>
+            <p class="recipes-author">por Júlia Kinoto</p>
+          </article>
+          <article class="recipes" data-id="lasanha">
+            <img src="assets/imgs/lasanha.png" alt="Lasanha" class="recipes-image">
+            <h4 class="recipes-title">Lasanha mac n' cheese</h4>
+            <p class="recipes-author">por Juliano Viera</p>
+          </article>
+          <article class="recipes" data-id="doce">
+            <img src="assets/imgs/doce.png" alt="Docinhos do Céu" class="recipes-image">
+            <h4 class="recipes-title">Docinhos pão-do-céu</h4>
+            <p class="recipes-author">por Fabiana de Melo</p>
+          </article>
+          <article class="recipes" data-id="asinhas">
+            <img src="assets/imgs/asinhas.png" alt="Assinhas" class="recipes-image">
+            <h4 class="recipes-title">Asinhas de frango ao barbecue</h4>
+            <p class="recipes-author">por Vania Steroki</p>
+          </article>
+          <article class="recipes" data-id="lasanha">
+            <img src="assets/imgs/lasanha.png" alt="Lasanha" class="recipes-image">
+            <h4 class="recipes-title">Lasanha mac n' cheese</h4>
+            <p class="recipes-author">por Juliano Viera</p>
+          </article>
+          <article class="recipes" data-id="doce">
+            <img src="assets/imgs/doce.png" alt="Docinhos do Céu" class="recipes-image">
+            <h4 class="recipes-title">Docinhos pão-do-céu</h4>
+            <p class="recipes-author">por Fabiana de Melo</p>
+          </article>
+          <article class="recipes" data-id="asinhas">
+            <img src="assets/imgs/asinhas.png" alt="Assinhas" class="recipes-image">
+            <h4 class="recipes-title">Asinhas de frango ao barbecue</h4>
+            <p class="recipes-author">por Vania Steroki</p>
+          </article>
+        </div>
+        <div class="box__modal">
+          <div class="modal">
+            <div class="capa__img">
+              <img src="assets/imgs/asinhas.png" alt="Assinhas" class="recipes-image">
+            </div>
+            <h4 class="recipes-title">Asinhas de frango ao barbecue</h4>
+            <p class="recipes-author">por Vania Steroki</p>
+            <span class='fechar-modal'>Fechar Modal</span>
+          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -61,5 +91,8 @@
       <p>Todos direitos reservados, receitas Foodfy</p>
     </div>
   </footer>
+
+
+  <script src="assets/js/scripts.js"></script>
 </body>
 </html>
