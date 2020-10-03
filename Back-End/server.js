@@ -6,6 +6,9 @@ const nunjucks = require('nunjucks')
 // Iniciando Server
 const server = express()
 
+// Chamando nosso Date
+const receitas = require("./data")
+
 
 // Configurando qual o template usado
 server.set("view engine", "njk")
@@ -22,9 +25,23 @@ server.get('/', function(req, res){
 
 
     // retornando a home
-    return res.render("home")
+    return res.render("home", {receitas: receitas})
 });
+
+
+// Rota Aulas
+server.get('/receitas', function(req, res){
+    return res.render("receitas", {receitas: receitas})
+})
+
+// Rota Sobre
+server.get('/sobre', function(req, res){
+    return res.render("sobre")
+})
+
+
 
 server.listen(5000, function(){
     console.log("Server is running")
 })
+

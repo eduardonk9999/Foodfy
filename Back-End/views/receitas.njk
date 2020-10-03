@@ -1,0 +1,30 @@
+{% extends "layout.njk" %}
+{% block content %}
+
+    <div class="wrapper receita">
+        {% for receita in receitas %}
+
+            <article class="receita__iten">
+                <img src="{{ receita.image }}" alt="receita.title">
+                <h3>{{ receita.title }}</h3>
+                <span>{{ receita.author }}</span>
+            </article>
+        {% endfor %}
+    </div>
+
+    <div class="modal__wrap">
+        <div class="modal_box">
+            <div class="capaimg">
+                <img src="/assets/asinhas.png" alt="assinhas">
+            </div>
+            <h3>Asinhas de frango ao barbecue</h3>
+            <span>por Vania Steroski</span>
+
+            <a href="">Fechar modal</a>
+        </div>
+    </div>
+
+
+    <script src="js/app.js"></script>
+
+{% endblock %}
