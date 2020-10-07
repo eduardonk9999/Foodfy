@@ -40,6 +40,11 @@ server.get('/sobre', function(req, res){
 })
 
 
+// Rota pag receita
+server.get('/receita', function(req, res){
+    return res.send("msg")
+})
+
 
 server.listen(5000, function(){
     console.log("Server is running")
