@@ -16,13 +16,13 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Node.js]
-- [Nunjucks]
-- [Express]
-- [CSS3]
-- [HTML5]
-- [JavaScript]
-- [MySql]
+- Node.js
+- Nunjucks
+- Express
+- CSS3
+- HTML5
+- JavaScript
+- MySql
 
 
 
