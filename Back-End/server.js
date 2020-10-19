@@ -41,8 +41,19 @@ server.get('/sobre', function(req, res){
 
 
 // Rota pag receita
-server.get('/receita', function(req, res){
-    return res.send("msg")
+server.get('/receita/:index', function(req, res){
+    
+    const receitasList = [
+        receitas.map((receita)=>{
+            console.log(receita.author)
+        })
+    ]
+    const receitasIndex = req.params.index;
+
+    let id = receitasList[receitasIndex]
+
+    return res.render("receita", id)
+
 })
 
 

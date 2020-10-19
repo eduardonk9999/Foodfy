@@ -4,7 +4,7 @@
     <div class="wrapper receita">
         {% for receita in receitas %}
 
-            <article class="receita__iten">
+            <article class="receita__iten" id="{{ receita.id }}">
                 <img src="{{ receita.image }}" alt="receita.title">
                 <h3>{{ receita.title }}</h3>
                 <span>{{ receita.author }}</span>
