@@ -3,6 +3,7 @@
 ## Descrição do Projeto
 <p align="center">Projeto de MVC, usando Node.</p>
 
+<img src="https://github.com/eduardonk9999/Foodfy/blob/master/site.png"/>
 
 <h4 align="center"> 
 	🚧  React Select 🚀 Em construção...  🚧
