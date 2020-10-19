@@ -1,16 +1,40 @@
-<h1>Foodfy</h1>
+<h1 align="center">Foodfy</h1>
 
-<p>Foodfy, um site de receitas, usando tecnologias como:</p>
+## Descrição do Projeto
+<p align="center">Projeto de MVC, usando Node.</p>
 
-<h2>Front-End</h2>
-<ul>
-<li>Html</li>
-<li>CSS</li>
-<li>JavaScript</li>
-</ul>
-<b>Template Engine:</b>
-<p>Nunjucks</p>
 
-<h2>Back-End</h2>
-<b>Node:</b>
-<p>Express</p>
+<h4 align="center"> 
+	🚧  React Select 🚀 Em construção...  🚧
+</h4>
+
+
+
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Node.js]
+- [Nunjucks]
+- [Express]
+- [CSS3]
+- [HTML5]
+- [JavaScript]
+- [MySql]
+
+
+
+### Para Rodar o Projeto:
+
+# Clone este repositório
+$ git clone https://github.com/eduardonk9999/Foodfy
+
+# Acesse a pasta Back-end
+$ cd /Back-End
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação
+$ npm start
